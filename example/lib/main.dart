@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple)),
       darkTheme: ThemeData.dark(),
-      themeMode: ThemeMode.dark,
+      //themeMode: ThemeMode.dark,
       home: const OnboardingScreen(),
     );
   }
@@ -46,7 +46,7 @@ class OnboardingScreen extends StatelessWidget {
           image: Image.asset('assets/images/onboarding3.png'),
         ),
       ],
-      animationType: AnimationType.fade,
+      animationType: AnimationType.cascade,
       clipType: ClipType.roundedBottom,
       indicatorStyle: IndicatorStyle.circle,
       indicatorActiveColor: Theme.of(context).colorScheme.primary,

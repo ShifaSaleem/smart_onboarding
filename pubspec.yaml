@@ -1,7 +1,7 @@
 name: smart_onboarding
-description: "A smart onboarding screen package for easy and fully custom onboarding flow."
+description: "A complete flutter package for a seamless onboarding process. You can choose animation type for screens switching,clip type for images to clip them in a custom shape, indicators style, your own continue and skip button styles, full customization with dark mode support."
 version: 0.0.1
-homepage:
+homepage: https://github.com/ShifaSaleem/smart_onboarding.git
 
 environment:
   sdk: ^3.7.2
@@ -20,7 +20,7 @@ dev_dependencies:
 # following page: https://dart.dev/tools/pub/pubspec
 
 # The following section is specific to Flutter packages.
-flutter:
+
 
   # To add assets to your package, add an assets section, like this:
   # assets:
