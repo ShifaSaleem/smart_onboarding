@@ -1,5 +1,5 @@
 name: smart_onboarding
-description: "A complete flutter package for a seamless onboarding process. You can choose animation type for screens switching,clip type for images to clip them in a custom shape, indicators style, your own continue and skip button styles, full customization with dark mode support."
+description: "A complete flutter package for a custom onboarding process."
 version: 0.0.1
 homepage: https://github.com/ShifaSaleem/smart_onboarding.git
 

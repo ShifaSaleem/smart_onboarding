@@ -5,22 +5,15 @@ class RoundedBottomClipper extends CustomClipper<Path> {
   @override
   Path getClip(Size size) {
     final path = Path();
-    // path.lineTo(0, size.height - 50);
-    // path.quadraticBezierTo(
-    //   size.width / 2,
-    //   size.height,
-    //   size.width,
-    //   size.height - 50,
-    // );
-    // path.lineTo(size.width, 0);
-    // path.close();
-
     double curveHeight = 40.0;
-
     path.moveTo(0, size.height);
     path.lineTo(0, size.height - curveHeight);
-    path.quadraticBezierTo(size.width / 2, size.height + curveHeight,
-        size.width, size.height - curveHeight);
+    path.quadraticBezierTo(
+      size.width / 2,
+      size.height + curveHeight,
+      size.width,
+      size.height - curveHeight,
+    );
     path.lineTo(size.width, size.height);
     path.lineTo(size.width, 0);
     path.lineTo(0, 0);
@@ -74,5 +67,3 @@ class DiagonalClipper extends CustomClipper<Path> {
   @override
   bool shouldReclip(CustomClipper<Path> oldClipper) => false;
 }
-
-
