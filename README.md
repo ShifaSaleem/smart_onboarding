@@ -11,7 +11,7 @@ A complete flutter package for a seamless onboarding process. You can choose ani
 ✅ Theme & Color Handling  
 ✅ Page Transition Control  
 ✅ Supports Images, Text, and Custom Layouts  
-✅ Easily Integratable into any Flutter project
+✅ Easily Integrate into any Flutter project
 
 ### Animation Type
 | Basic | Fade | Parallax | Cascade |
