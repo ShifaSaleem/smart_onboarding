@@ -14,26 +14,26 @@ A complete flutter package for a seamless onboarding process. You can choose ani
 ✅ Easily Integrate into any Flutter project
 
 ### Animation Type
-| Basic | Fade | Parallax | Cascade |
-|:--------:|:--------:|:--------:|:--------:|
+|                                                Basic                                                |                                               Fade                                                |                                                 Parallax                                                  |                                                 Cascade                                                 |
+|:---------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------:|
 | ![Basic](https://github.com/ShifaSaleem/smart_onboarding/blob/master/images/Onboarding%20basic.gif) | ![Fade](https://github.com/ShifaSaleem/smart_onboarding/blob/master/images/onboarding%20fade.gif) | ![Parallax](https://github.com/ShifaSaleem/smart_onboarding/blob/master/images/onboarding%20parallax.gif) | ![Cascade](https://github.com/ShifaSaleem/smart_onboarding/blob/master/images/onboarding%20cascade.gif) |
 
 ### Image Clip Styles
 
 Customize how onboarding images are clipped with beautiful curves and shapes.
 
-| Rounded | Diagonal | Wavy |
-|:--------:|:--------:|:--------:|
+|                                                     Rounded                                                      |                                                     Diagonal                                                      |                                                   Wavy                                                   |
+|:----------------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------:|
 | ![Rounded](https://github.com/ShifaSaleem/smart_onboarding/blob/master/images/Onboarding%20indicator%20dash.png) | ![Diagonal](https://github.com/ShifaSaleem/smart_onboarding/blob/master/images/Onboarding%20clipe%20diagonal.png) | ![Wavy](https://github.com/ShifaSaleem/smart_onboarding/blob/master/images/Onboarding%20clip%20wavy.png) |
 
 ### Custom Indicator Styles
 
-| Circle | Rounded Rectangle | Dash |
-|:--------:|:--------:|:--------:|
+|                                                   Circle                                                   |                                                            Rounded Rectangle                                                             |                                                     Dash                                                      |
+|:----------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------:|
 | ![Circle](https://github.com/ShifaSaleem/smart_onboarding/blob/master/images/Onboarding%20clip%20wavy.png) | ![Rounded Rectangle](https://github.com/ShifaSaleem/smart_onboarding/blob/master/images/Onboarding%20indicator%20rounded%20rectange.png) | ![Dash](https://github.com/ShifaSaleem/smart_onboarding/blob/master/images/Onboarding%20indicator%20dash.png) | 
 
-| Diamond | Triangle | 
-|:--------:|:--------:|
+|                                                       Diamond                                                       |                                                       Triangle                                                        | 
+|:-------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------:|
 | ![Diamond](https://github.com/ShifaSaleem/smart_onboarding/blob/master/images/Onboarding%20indicator%20diamond.png) | ![Triangle](https://github.com/ShifaSaleem/smart_onboarding/blob/master/images/Onboarding%20indicator%20triangle.png) |
 
 ---
