@@ -16,7 +16,6 @@ class RoundedBottomClipper extends CustomClipper<Path> {
     // path.close();
 
     double curveHeight = 40.0;
-    double curveWidth = 20.0;
 
     path.moveTo(0, size.height);
     path.lineTo(0, size.height - curveHeight);
