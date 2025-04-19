@@ -2,6 +2,10 @@
 
 - First version with custom onboarding flow.
 
-## [0.0.2] - 2025-04-18
-### Changed
+## [0.0.2] 
+
+- Updated `README.md` with sample resources.
+
+## [0.0.3]
+
 - Updated `README.md` with sample resources.

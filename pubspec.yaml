@@ -1,6 +1,6 @@
 name: smart_onboarding
 description: "A complete flutter package for a custom onboarding process."
-version: 0.0.2
+version: 0.0.3
 homepage: https://github.com/ShifaSaleem/smart_onboarding.git
 
 environment:
