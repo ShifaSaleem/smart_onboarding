@@ -1,39 +1,86 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/tools/pub/writing-package-pages).
-
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/to/develop-packages).
--->
-
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+# Smart Onboarding
+A complete flutter package for a seamless onboarding process. You can choose animation type for screens switching,clip type for images to clip them in a custom shape, indicators style, your own continue and skip button styles, full customization with dark mode support.
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+✅ Multiple Onboarding Styles  
+✅ Dark/Light Theme Adaptive  
+✅ Configurable Skip & Continue Buttons  
+✅ Indicator Customization  
+✅ Theme & Color Handling  
+✅ Page Transition Control  
+✅ Supports Images, Text, and Custom Layouts  
+✅ Easily Integratable into any Flutter project
+
+### Animation Type
+| Basic | Fade | Parallax | Cascade |
+|:-----:|:----:|:--------:|:-------:|
+| ![](https://github.com/ShifaSaleem/smart_onboarding/blob/master/images/Onboarding%20basic.gif) | ![](https://github.com/ShifaSaleem/smart_onboarding/blob/master/images/onboarding%20fade.gif) | ![](https://github.com/ShifaSaleem/smart_onboarding/blob/master/images/onboarding%20parallax.gif) | ![](https://github.com/ShifaSaleem/smart_onboarding/blob/master/images/onboarding%20cascade.gif) |
+
+### Image Clip Styles
+
+Customize how onboarding images are clipped with beautiful curves and shapes.
+
+| Rounded | Diagonal | Wavy |
+|:-------:|:--------:|:----:|
+| ![](https://github.com/ShifaSaleem/smart_onboarding/blob/master/images/Onboarding%20indicator%20dash.png) | ![](https://github.com/ShifaSaleem/smart_onboarding/blob/master/images/Onboarding%20clipe%20diagonal.png) | ![](https://github.com/ShifaSaleem/smart_onboarding/blob/master/images/Onboarding%20clip%20wavy.png) |
+
+### Custom Indicator Styles
+
+| Circle | Rounded Rectangle | Dash |
+|:------:|:---------:|:----:|
+| ![](https://github.com/ShifaSaleem/smart_onboarding/blob/master/images/Onboarding%20clip%20wavy.png) | ![](https://github.com/ShifaSaleem/smart_onboarding/blob/master/images/Onboarding%20indicator%20rounded%20rectange.png) | ![](https://github.com/ShifaSaleem/smart_onboarding/blob/master/images/Onboarding%20indicator%20dash.png) | 
+
+| Diamond | Triangle | 
+|:------:|:---------:|
+| ![](https://github.com/ShifaSaleem/smart_onboarding/blob/master/images/Onboarding%20indicator%20diamond.png) | ![](https://github.com/ShifaSaleem/smart_onboarding/blob/master/images/Onboarding%20indicator%20triangle.png) |
+
+---
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+### 1. Add dependency
+
+```yaml
+dependencies:
+  smart_onboarding: ^1.0.0
+```
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
-
 ```dart
-const like = 'sample';
+SmartOnboarding(
+      pages: [
+        OnboardingPageModel(
+          title: 'Welcome',
+          description: 'Your new experience starts here.',
+          image: Image.network(
+            'https://www.cflowapps.com/wp-content/uploads/2018/07/employee-onboarding-process-flow.png',
+          ),
+        ),
+        OnboardingPageModel(
+          title: 'Stay Connected',
+          description: 'Never miss important updates and news.',
+          image: Image.asset('assets/images/onboarding2.jpg'),
+        ),
+        OnboardingPageModel(
+          title: 'Achieve More',
+          description: 'Unlock your full potential with our tools.',
+          image: Image.asset('assets/images/onboarding3.png'),
+        ),
+      ],
+      onSkip: () => Navigator.pushReplacement(
+        context,
+        MaterialPageRoute(
+          builder: (_) => const HomeScreen(),
+        ),
+      ),
+      onFinish: () => Navigator.pushReplacement(
+        context,
+        MaterialPageRoute(
+          builder: (_) => const HomeScreen(),
+        ),
+      ),
+    );
 ```
-
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
